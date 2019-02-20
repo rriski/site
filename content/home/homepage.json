@@ -1,0 +1,83 @@
+{
+  "hello": "Hello, I'm Timo 👋🏻",
+  "me": {
+    "image": "../images/me.jpg"
+  },
+  "textcarousel": ["developer 👨🏻‍💻", "student 👨🏻‍🎓", "football ️️⚽️", "skiing ⛷", "piano  🎹"],
+  "portfolio": [{
+    "title": "äpy.fi",
+    "copy": "Wappu magazine Äpy's website.",
+    "image": "portfolio/images/apy-fi.png",
+    "description": "portfolio/äpy-fi.md"
+  },
+  {
+    "title": "prodeko.org",
+    "copy": "Aalto University's IEM student guild website.",
+    "image": "portfolio/images/prodeko-org.png",
+    "description": "portfolio/prodeko-org.md"
+  },
+  {
+    "title": "timoriski.fi",
+    "copy": "My site!",
+    "image": "portfolio/images/mysite.png",
+    "description": "portfolio/mysite.md"
+  }],
+  "education": [{
+    "title": "Bachelor of Science",
+    "copy": "Industrial Engineering and Management, Aalto School of Science | 2014 -"
+  },
+  {
+    "title": "Matriculation examination",
+    "copy": "Mäkelänrinne High School | 2011 - 2014"
+  },
+  {
+    "title": "Matriculation examination",
+    "copy": "Mäkelänrinne High School | 2011 - 2014"
+  }],
+  "skills": [{
+    "title": "Frameworks",
+    "text": "Django, React, Flask"
+  },
+  {
+    "title": "Languages",
+    "text": "Javascript (ES6), Python, C, C++, Scala"
+  },
+  {
+    "title": "Servers & Databases",
+    "text": "NGINX, Apache, MySQL"
+  },
+  {
+    "title": "Infrastructure",
+    "text": "Kubernetes, Docker, GCloud, Azure"
+  },
+  {
+    "analytics": "R (tidyverse packages such as ggplot2, dplyr, tidyr, data.table), Python (pandas, NumPy, Matplotlib), Jupyter notebooks, machine learning (basic knowledge)"
+  }],
+  "experience": [{
+    "title": "Prodeko Board",
+    "roles": [{
+      "2018": "Minister of Media and Information Technology"
+    }],
+    "description": "experience/prodeko-board.md"
+  },
+  {
+    "title": "PoRa",
+    "roles": [{
+      "2016": "Board member",
+      "2017": "President",
+      "2018": "Board member, PoRa50 anniversary",
+      "2019": "PoRa50 anniversary"
+    }],
+    "description": "experience/pora.md"
+  },
+  {
+    "title": "Prodeko Guild",
+    "roles": [{
+      "2016": "Webteam, Tutor, Sports tutor, Sports responsible",
+      "2017": "Webteam",
+      "2018": "Tutor, Webteam",
+      "2019": "Graphic design, webteam, marketing to high school students"
+    }],
+    "description": "experience/prodeko-guild.md"
+  }]
+}
