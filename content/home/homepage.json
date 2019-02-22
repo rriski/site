@@ -51,7 +51,8 @@
     "text": "Kubernetes, Docker, GCloud, Azure, AWS"
   },
   {
-    "analytics": "R (tidyverse packages such as ggplot2, dplyr, tidyr, data.table), Python (pandas, NumPy, Matplotlib), Jupyter notebooks, machine learning (basic knowledge)"
+    "title": "Analytics",
+    "text": "R (tidyverse), Python (pandas, NumPy), Jupyter"
   }],
   "experience": [{
     "title": "Prodeko Board",
