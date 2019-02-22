@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { Wrapper, Ul, Li } from './textcarousel.css';
 
-let TEXT_TIMEOUT = 3000;
+let TEXT_TIMEOUT = 2000;
 
 const TextCarousel = ({ items }) => {
   const [currentIndex, setCurrentIndex] = useState(0);

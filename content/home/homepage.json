@@ -44,14 +44,15 @@
   },
   {
     "title": "Servers & Databases",
-    "text": "NGINX, Apache, MySQL"
+    "text": "NGINX, Apache, MySQL, PostgreSQL"
   },
   {
     "title": "Infrastructure",
-    "text": "Kubernetes, Docker, GCloud, Azure"
+    "text": "Kubernetes, Docker, GCloud, Azure, AWS"
   },
   {
-    "analytics": "R (tidyverse packages such as ggplot2, dplyr, tidyr, data.table), Python (pandas, NumPy, Matplotlib), Jupyter notebooks, machine learning (basic knowledge)"
+    "title": "Analytics",
+    "text": "R (tidyverse), Python (pandas, NumPy), Jupyter"
   }],
   "experience": [{
     "title": "Prodeko Board",
