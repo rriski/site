@@ -91,4 +91,5 @@ Modal.propTypes = {
   children: PropTypes.node,
   open: PropTypes.bool.isRequired,
   hideModal: PropTypes.func.isRequired,
+  title: PropTypes.string.isRequired,
 };
