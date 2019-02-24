@@ -3,7 +3,7 @@
   "me": {
     "image": "../images/me.jpg"
   },
-  "textcarousel": ["developer 👨🏻‍💻", "student 👨🏻‍🎓", "football ️️⚽️", "skiing ⛷", "piano  🎹"],
+  "textcarousel": ["developer 👨🏻‍💻", "student 👨🏻‍🎓", "football ️️⚽️", "skiing ⛷"],
   "portfolio": [{
     "title": "äpy.fi",
     "copy": "Wappu magazine Äpy's website.",
@@ -36,7 +36,7 @@
   }],
   "skills": [{
     "title": "Frameworks",
-    "text": "Django, React, Flask"
+    "text": "React, Django, Flask"
   },
   {
     "title": "Languages",
