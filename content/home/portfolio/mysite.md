@@ -1,7 +1,7 @@
 ![timoriski.fi](images/mysite.png)
 
 ## About 
-The site you're currently browsing!
+The site you're currently browsing! Deployed using [Netlify](https://www.netlify.com/).
 
 ## Features
 
