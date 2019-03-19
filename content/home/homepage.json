@@ -36,7 +36,7 @@
   }],
   "skills": [{
     "title": "Frameworks",
-    "text": "React, Django, Flask"
+    "text": "React, Vue, Django, Flask"
   },
   {
     "title": "Languages",
@@ -48,7 +48,7 @@
   },
   {
     "title": "Infrastructure",
-    "text": "Kubernetes, Docker, GCloud, Azure, AWS"
+    "text": "Docker, AWS, Azure, GCloud, Kubernetes"
   },
   {
     "title": "Analytics",
