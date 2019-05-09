@@ -1,6 +1,6 @@
-import styled, { keyframes, css } from 'styled-components';
-import { textcolor } from 'constants/theme';
-import MEDIA from 'helpers/mediaTemplates';
+import styled, { keyframes, css } from 'styled-components'
+import { textcolor } from 'constants/theme'
+import MEDIA from 'helpers/mediaTemplates'
 
 export const slideFromLeft = keyframes`
   from {
@@ -11,7 +11,7 @@ export const slideFromLeft = keyframes`
     opacity: 1;
     transform: 0;
   }
-`;
+`
 
 export const Wrapper = styled.div`
   visibility: ${({ isVisible }) =>
@@ -26,7 +26,7 @@ export const Wrapper = styled.div`
           ${slideFromLeft} 0.5s ease-out forwards;
         `
       : 'none'};
-`;
+`
 
 export const Title = styled.div`
   line-height: 1.3;
@@ -36,7 +36,7 @@ export const Title = styled.div`
   ${MEDIA.PHONE`
     margin: 0;
   `};
-`;
+`
 
 export const Description = styled.p`
   color: ${textcolor};
@@ -46,4 +46,4 @@ export const Description = styled.p`
   ${MEDIA.PHONE`
     margin: 0 0 2rem 0;
   `};
-`;
+`

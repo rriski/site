@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
-import posed from 'react-pose';
-import { Container, Title } from './header.css';
-import Nav from 'containers/nav';
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
+import posed from 'react-pose'
+import { Container, Title } from './header.css'
+import Nav from 'containers/nav'
 
 // Example of a component-specific page transition
 const AnimatedContainer = posed.div({
@@ -19,7 +19,7 @@ const AnimatedContainer = posed.div({
       ease: 'easeInOut',
     },
   },
-});
+})
 
 const Header = ({ title }) => (
   <AnimatedContainer>
@@ -30,10 +30,10 @@ const Header = ({ title }) => (
       <Nav />
     </Container>
   </AnimatedContainer>
-);
+)
 
 Header.propTypes = {
   title: PropTypes.string.isRequired,
-};
+}
 
-export default Header;
+export default Header

@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import MEDIA from 'helpers/mediaTemplates';
+import styled from 'styled-components'
+import MEDIA from 'helpers/mediaTemplates'
 
 export const Container = styled.div`
   padding: 4rem;
@@ -23,7 +23,7 @@ export const Container = styled.div`
   ${MEDIA.MIN_DESKTOP`
     grid-template-columns: 1fr 3fr;
   `};
-`;
+`
 
 export const TextWrapper = styled.div`
   display: grid;
@@ -37,7 +37,7 @@ export const TextWrapper = styled.div`
   ${MEDIA.PHONE`
     justify-items: center;
   `};
-`;
+`
 
 export const Title = styled.div`
   font-weight: 800;
@@ -52,4 +52,4 @@ export const Title = styled.div`
   ${MEDIA.PHONE`
     font-size: 3rem;
   `};
-`;
+`

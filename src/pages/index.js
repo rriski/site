@@ -1,10 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Layout from 'components/layout';
-import AboutMe from 'components/aboutme';
-import Portfolio from 'containers/portfolio';
-import Skills from 'containers/skills';
-import { graphql } from 'gatsby';
+import React from 'react'
+import PropTypes from 'prop-types'
+import Layout from 'components/layout'
+import AboutMe from 'components/aboutme'
+import Portfolio from 'containers/portfolio'
+import Skills from 'containers/skills'
+import { graphql } from 'gatsby'
 
 const Index = ({ data }) => (
   <Layout>
@@ -16,13 +16,13 @@ const Index = ({ data }) => (
     <Portfolio items={data.homeJson.portfolio} />
     <Skills items={data.homeJson.skills} />
   </Layout>
-);
+)
 
 Index.propTypes = {
   data: PropTypes.object.isRequired,
-};
+}
 
-export default Index;
+export default Index
 
 export const query = graphql`
   query HomepageQuery {
@@ -76,4 +76,4 @@ export const query = graphql`
       }
     }
   }
-`;
+`

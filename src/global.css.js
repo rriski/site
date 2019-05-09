@@ -1,6 +1,6 @@
-import { createGlobalStyle } from 'styled-components';
-import { accent } from 'constants/theme';
-import MEDIA from 'helpers/mediaTemplates';
+import { createGlobalStyle } from 'styled-components'
+import { accent } from 'constants/theme'
+import MEDIA from 'helpers/mediaTemplates'
 
 export default createGlobalStyle`
   html, body {
@@ -106,4 +106,4 @@ export default createGlobalStyle`
       width: 100%;
     `};
   }
-`;
+`

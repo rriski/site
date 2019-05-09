@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import MEDIA from 'helpers/mediaTemplates';
+import styled from 'styled-components'
+import MEDIA from 'helpers/mediaTemplates'
 
 export const ToggleModal = styled.div`
   height: 20px;
@@ -45,4 +45,4 @@ export const ToggleModal = styled.div`
       transform: rotate(0deg);
     }
   }
-`;
+`

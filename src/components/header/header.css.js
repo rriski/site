@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { textcolor } from 'constants/theme';
-import MEDIA from 'helpers/mediaTemplates';
+import styled from 'styled-components'
+import { textcolor } from 'constants/theme'
+import MEDIA from 'helpers/mediaTemplates'
 
 export const Container = styled.header`
   display: flex;
@@ -21,7 +21,7 @@ export const Container = styled.header`
       color: inherit;
     }
   }
-`;
+`
 
 export const Title = styled.div`
   font-weight: 500;
@@ -36,4 +36,4 @@ export const Title = styled.div`
   ${MEDIA.PHONE`
     font-size: 1.4rem;
   `};
-`;
+`

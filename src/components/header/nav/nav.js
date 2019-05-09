@@ -1,15 +1,15 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Ul, A } from './nav.css';
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Ul, A } from './nav.css'
 
 const scrollToRef = ref => {
   if (ref.current) {
     window.scrollTo({
       top: ref.current.offsetTop,
       behavior: 'smooth',
-    });
+    })
   }
-};
+}
 
 // href="javascript:;" makes the links focusable via tab
 // and thus more accessible.
@@ -28,10 +28,10 @@ const Nav = React.forwardRef((ref, props) => (
       </li>
     </Ul>
   </>
-));
+))
 
 Nav.propTypes = {
   ref: PropTypes.object,
-};
+}
 
-export default Nav;
+export default Nav

@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Consumer } from 'store/createContext';
-import Experience from 'components/experience';
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Consumer } from 'store/createContext'
+import Experience from 'components/experience'
 
 const ExperienceContainer = ({ items }) => (
   <Consumer>
@@ -9,10 +9,10 @@ const ExperienceContainer = ({ items }) => (
       <Experience items={items} experienceRef={experienceRef} />
     )}
   </Consumer>
-);
+)
 
 ExperienceContainer.propTypes = {
   items: PropTypes.arrayOf(PropTypes.object).isRequired,
-};
+}
 
-export default ExperienceContainer;
+export default ExperienceContainer

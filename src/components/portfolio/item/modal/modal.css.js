@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { textcolor } from 'constants/theme';
-import MEDIA from 'helpers/mediaTemplates';
+import styled from 'styled-components'
+import { textcolor } from 'constants/theme'
+import MEDIA from 'helpers/mediaTemplates'
 
 export const Description = styled.div`
   p,
@@ -31,4 +31,4 @@ export const Description = styled.div`
       margin: 0 !important;
     `};
   }
-`;
+`

@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Item from 'components/experience/item';
-import { Container } from './experience.css';
-import { Wrapper, H } from 'constants/styled.css';
+import React from 'react'
+import PropTypes from 'prop-types'
+import Item from 'components/experience/item'
+import { Container } from './experience.css'
+import { Wrapper, H } from 'constants/styled.css'
 
 const Experience = ({ items, experienceRef }) => (
   <Wrapper ref={experienceRef}>
@@ -13,11 +13,11 @@ const Experience = ({ items, experienceRef }) => (
       ))}
     </Container>
   </Wrapper>
-);
+)
 
 Experience.propTypes = {
   items: PropTypes.arrayOf(PropTypes.object).isRequired,
   experienceRef: PropTypes.object,
-};
+}
 
-export default Experience;
+export default Experience

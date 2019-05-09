@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import MEDIA from 'helpers/mediaTemplates';
-import Img from 'gatsby-image';
+import styled from 'styled-components'
+import MEDIA from 'helpers/mediaTemplates'
+import Img from 'gatsby-image'
 
 export const Image = styled(Img)`
   border-radius: 50%;
@@ -11,4 +11,4 @@ export const Image = styled(Img)`
   ${MEDIA.PHONE`
     margin: 3rem;
   `};
-`;
+`

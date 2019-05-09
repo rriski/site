@@ -1,21 +1,21 @@
-import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
-import ItemModal from 'components/portfolio/item/modal';
-import { Wrapper, Figure, Image, Copy } from './item.css';
-import { Title } from 'constants/styled.css';
+import React, { PureComponent } from 'react'
+import PropTypes from 'prop-types'
+import ItemModal from 'components/portfolio/item/modal'
+import { Wrapper, Figure, Image, Copy } from './item.css'
+import { Title } from 'constants/styled.css'
 
 export default class Item extends PureComponent {
   state = {
     open: false,
-  };
+  }
 
-  showModal = () => this.setState({ open: true });
-  hideModal = () => this.setState({ open: false });
+  showModal = () => this.setState({ open: true })
+  hideModal = () => this.setState({ open: false })
 
   render() {
-    const { title, copy, image } = this.props;
-    const { open } = this.state;
-    const modalProps = { open, hideModal: this.hideModal, ...this.props };
+    const { title, copy, image } = this.props
+    const { open } = this.state
+    const modalProps = { open, hideModal: this.hideModal, ...this.props }
 
     return (
       <Wrapper>
@@ -28,7 +28,7 @@ export default class Item extends PureComponent {
         </Figure>
         <ItemModal {...modalProps} />
       </Wrapper>
-    );
+    )
   }
 }
 
@@ -37,4 +37,4 @@ Item.propTypes = {
   copy: PropTypes.string.isRequired,
   image: PropTypes.object.isRequired,
   description: PropTypes.object.isRequired,
-};
+}

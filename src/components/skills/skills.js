@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Item from 'components/skills/item';
-import { Container } from './skills.css';
-import { Wrapper, H } from 'constants/styled.css';
+import React from 'react'
+import PropTypes from 'prop-types'
+import Item from 'components/skills/item'
+import { Container } from './skills.css'
+import { Wrapper, H } from 'constants/styled.css'
 
 const Skills = ({ items, skillsRef }) => (
   <Wrapper ref={skillsRef}>
@@ -13,11 +13,11 @@ const Skills = ({ items, skillsRef }) => (
       ))}
     </Container>
   </Wrapper>
-);
+)
 
 Skills.propTypes = {
   items: PropTypes.arrayOf(PropTypes.object).isRequired,
   skillsRef: PropTypes.object,
-};
+}
 
-export default Skills;
+export default Skills

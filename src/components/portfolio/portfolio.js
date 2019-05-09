@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Item from 'components/portfolio/item';
-import { Container } from './portfolio.css';
-import { Wrapper, H } from 'constants/styled.css';
+import React from 'react'
+import PropTypes from 'prop-types'
+import Item from 'components/portfolio/item'
+import { Container } from './portfolio.css'
+import { Wrapper, H } from 'constants/styled.css'
 
 const Portfolio = ({ items, portfolioRef }) => (
   <Wrapper ref={portfolioRef}>
@@ -13,11 +13,11 @@ const Portfolio = ({ items, portfolioRef }) => (
       ))}
     </Container>
   </Wrapper>
-);
+)
 
 Portfolio.propTypes = {
   items: PropTypes.arrayOf(PropTypes.object).isRequired,
   portfolioRef: PropTypes.object,
-};
+}
 
-export default Portfolio;
+export default Portfolio

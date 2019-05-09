@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import MEDIA from 'helpers/mediaTemplates';
+import styled from 'styled-components'
+import MEDIA from 'helpers/mediaTemplates'
 
 export const Wrapper = styled.div`
   ${MEDIA.PHONE`
@@ -10,4 +10,4 @@ export const Wrapper = styled.div`
   ${MEDIA.MIN_BIGSCREEN`
     padding: 0 15%;
   `};
-`;
+`

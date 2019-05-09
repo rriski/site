@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import IO from 'components/io';
-import { Wrapper, Li, Description } from './item.css';
-import { Title } from 'constants/styled.css';
+import React from 'react'
+import PropTypes from 'prop-types'
+import IO from 'components/io'
+import { Wrapper, Li, Description } from './item.css'
+import { Title } from 'constants/styled.css'
 
 const Item = ({ title, roles, description }) => (
   <IO rootMargin="-50px">
@@ -17,8 +17,8 @@ const Item = ({ title, roles, description }) => (
                   {/* Year is preceded by an underscore. substr(1) removes it. */}
                   {year.substr(1)}: {role[year]}
                 </Li>
-              ) : null;
-            });
+              ) : null
+            })
           })}
         </ul>
         <Description
@@ -29,12 +29,12 @@ const Item = ({ title, roles, description }) => (
       </Wrapper>
     )}
   </IO>
-);
+)
 
 Item.propTypes = {
   title: PropTypes.string.isRequired,
   roles: PropTypes.array.isRequired,
   description: PropTypes.object.isRequired,
-};
+}
 
-export default Item;
+export default Item

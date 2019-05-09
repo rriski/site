@@ -1,11 +1,11 @@
-import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
-import Modal from 'components/modal';
-import { Description } from './modal.css';
+import React, { PureComponent } from 'react'
+import PropTypes from 'prop-types'
+import Modal from 'components/modal'
+import { Description } from './modal.css'
 
 export default class ItemModal extends PureComponent {
   render() {
-    const { description } = this.props;
+    const { description } = this.props
 
     return (
       <Modal {...this.props}>
@@ -15,7 +15,7 @@ export default class ItemModal extends PureComponent {
           }}
         />
       </Modal>
-    );
+    )
   }
 }
 
@@ -25,4 +25,4 @@ ItemModal.propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.object,
   description: PropTypes.object,
-};
+}

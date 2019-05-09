@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
   siteTitle: 'Timo Riski',
@@ -9,4 +9,4 @@ module.exports = {
   backgroundColor: '#fff',
   pathPrefix: null,
   logo: path.resolve(__dirname, 'src/static/icon.png'),
-};
+}

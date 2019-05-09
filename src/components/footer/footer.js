@@ -1,6 +1,6 @@
-import React from 'react';
-import { FaEnvelope, FaGithub } from 'react-icons/fa';
-import { Ul, Li, A } from './footer.css';
+import React from 'react'
+import { FaEnvelope, FaGithub } from 'react-icons/fa'
+import { Ul, Li, A } from './footer.css'
 
 const Footer = () => (
   <Ul>
@@ -13,6 +13,6 @@ const Footer = () => (
       <A href="https://github.com/rriski">Github</A>
     </Li>
   </Ul>
-);
+)
 
-export default Footer;
+export default Footer

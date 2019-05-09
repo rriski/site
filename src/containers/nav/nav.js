@@ -1,6 +1,6 @@
-import React from 'react';
-import { Consumer } from 'store/createContext';
-import Nav from 'components/header/nav';
+import React from 'react'
+import { Consumer } from 'store/createContext'
+import Nav from 'components/header/nav'
 
 const NavContainer = () => (
   <Consumer>
@@ -12,8 +12,8 @@ const NavContainer = () => (
       />
     )}
   </Consumer>
-);
+)
 
-NavContainer.propTypes = {};
+NavContainer.propTypes = {}
 
-export default NavContainer;
+export default NavContainer

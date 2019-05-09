@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { textcolor } from 'constants/theme';
-import MEDIA from 'helpers/mediaTemplates';
+import styled from 'styled-components'
+import { textcolor } from 'constants/theme'
+import MEDIA from 'helpers/mediaTemplates'
 
 export const Ul = styled.ul`
   display: flex;
@@ -11,7 +11,7 @@ export const Ul = styled.ul`
   ${MEDIA.PHONE`
     font-size: 1.2rem;
   `};
-`;
+`
 
 export const A = styled.a`
   color: ${textcolor};
@@ -26,4 +26,4 @@ export const A = styled.a`
   ${MEDIA.PHONE`
     margin-right: 1rem;
   `};
-`;
+`

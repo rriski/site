@@ -1,5 +1,5 @@
-import styled, { keyframes, css } from 'styled-components';
-import MEDIA from 'helpers/mediaTemplates';
+import styled, { keyframes, css } from 'styled-components'
+import MEDIA from 'helpers/mediaTemplates'
 
 export const slideFromLeft = keyframes`
   from {
@@ -10,15 +10,15 @@ export const slideFromLeft = keyframes`
     opacity: 1;
     transform: translateX(0);
   }
-`;
+`
 
 export const Wrapper = styled.div`
   grid-area: textcarousel;
-`;
+`
 
 export const Ul = styled.ul`
   position: relative;
-`;
+`
 
 export const Li = styled.li`
   opacity: 0;
@@ -49,4 +49,4 @@ export const Li = styled.li`
     text-align: center;
     font-size: 2rem;
   `};
-`;
+`

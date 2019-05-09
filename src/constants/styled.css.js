@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import MEDIA from 'helpers/mediaTemplates';
+import styled from 'styled-components'
+import MEDIA from 'helpers/mediaTemplates'
 
 export const Wrapper = styled.div`
   padding: 0 4rem;
@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   ${MEDIA.PHONE`
     padding: 1rem;
   `};
-`;
+`
 
 export const H = styled.h1`
   font-size: 50px;
@@ -16,7 +16,7 @@ export const H = styled.h1`
   ${MEDIA.PHONE`
     font-size: 30px;
   `};
-`;
+`
 
 export const Title = styled.span`
   display: block;
@@ -27,4 +27,4 @@ export const Title = styled.span`
   ${MEDIA.PHONE`
     margin: 1rem 0;
   `};
-`;
+`

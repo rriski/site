@@ -1,5 +1,5 @@
-import styled, { keyframes } from 'styled-components';
-import MEDIA from 'helpers/mediaTemplates';
+import styled, { keyframes } from 'styled-components'
+import MEDIA from 'helpers/mediaTemplates'
 
 const showContainer = keyframes`
   from {
@@ -11,7 +11,7 @@ const showContainer = keyframes`
     opacity: 1;
     transform: translate3d(0, 0, 0);
   }
-`;
+`
 
 const hideContainer = keyframes`
   from {
@@ -23,7 +23,7 @@ const hideContainer = keyframes`
     opacity: 0;
     transform: translate3d(0, -20px, 0);
   }
-`;
+`
 
 const showBackground = keyframes`
   from {
@@ -33,7 +33,7 @@ const showBackground = keyframes`
   to {
     opacity: 1;
   }
-`;
+`
 
 const hideBackground = keyframes`
   from {
@@ -43,7 +43,7 @@ const hideBackground = keyframes`
   to {
     opacity: 0;
   }
-`;
+`
 
 export const ModalBackground = styled.div`
   position: fixed;
@@ -56,7 +56,7 @@ export const ModalBackground = styled.div`
   display: ${({ open }) => (open ? 'block' : 'none')};
   animation: ${({ open }) => (open ? showBackground : hideBackground)} 0.1s
     ease-out;
-`;
+`
 
 export const ModalContainer = styled.div`
   position: fixed;
@@ -68,7 +68,7 @@ export const ModalContainer = styled.div`
   display: ${({ open }) => (open ? 'block' : 'none')};
   animation: ${({ open }) => (open ? showContainer : hideContainer)} 0.4s
     cubic-bezier(0.2, 0.87, 0.76, 0.98);
-`;
+`
 
 export const ModalMain = styled.div`
   position: fixed;
@@ -100,7 +100,7 @@ export const ModalMain = styled.div`
   ${MEDIA.PHONE`
     width: 95vw;
   `};
-`;
+`
 
 export const ModalHeader = styled.div`
   text-align: center;
@@ -111,7 +111,7 @@ export const ModalHeader = styled.div`
   ${MEDIA.TABLET`
     font-size: 3rem;
   `};
-`;
+`
 
 export const ModalBody = styled.div`
   padding: 2rem;
@@ -125,4 +125,4 @@ export const ModalBody = styled.div`
   ${MEDIA.PHONE`
     padding: 1rem;
   `};
-`;
+`
