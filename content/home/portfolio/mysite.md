@@ -1,10 +1,12 @@
 ![timoriski.fi](images/mysite.png)
 
 ## About 
-The site you're currently browsing! Deployed using [Netlify](https://www.netlify.com/).
+The site you're currently browsing!
+
+## Technologies
+Gatsby v2, React. Deployed using [Netlify](https://www.netlify.com/).
 
 ## Features
-
 - Built with [gatsby v2](https://www.gatsbyjs.org/)
 - Page Transitions, component-based (with no-js support)
 - IntersectionObserver, component-based (with polyfill)
@@ -15,7 +17,6 @@ The site you're currently browsing! Deployed using [Netlify](https://www.netlify
 - One config file for site-wide settings
 - [Prettier](https://prettier.io/) for code style
 - [ESLINT](https://eslint.org/) (based on eslint-plugin-react)
-- [CircleCI](https://circleci.com/) support
 - Most social + meta tags in one component (head.js)
 - All favicons generated, only one icon file needed
 - Generated media queries for easy use

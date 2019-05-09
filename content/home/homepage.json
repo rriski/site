@@ -17,6 +17,12 @@
     "description": "portfolio/prodeko-org.md"
   },
   {
+    "title": "osta.äpy.fi",
+    "copy": "A service to find Äpy sellers",
+    "image": "portfolio/images/osta-apy-fi.png",
+    "description": "portfolio/osta-äpy-fi.md"
+  },
+  {
     "title": "timoriski.fi",
     "copy": "My site!",
     "image": "portfolio/images/mysite.png",

@@ -18,6 +18,6 @@ Gatsby v2, React. Deployed using [Netlify](https://www.netlify.com/).
 - 3D logo using [three-js](https://threejs.org/)
 - [Prettier](https://prettier.io/) for code style
 - [ESLint](https://eslint.org/) (based on eslint-plugin-react)
-- [Stylelint](https://stylelint.io/) for scss linting
+- [Stylelint](https://stylelint.io/) for SCSS linting
 - Most social + meta tags in one component (SEO)
 - Generated media queries for easy use
