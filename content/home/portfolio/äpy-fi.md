@@ -1,5 +1,5 @@
 <div class="markdown-video">
-  <video autoplay="true" loop="true">
+  <video autoplay loop muted>
     <source type="video/mp4" src="videos/apy-fi.mp4" />
     <p>Your browser does not support the video element.</p>
   </video>
