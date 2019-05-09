@@ -7,6 +7,8 @@
     "serve": "gatsby serve",
     "ssr": "yarn build && yarn serve",
     "format": "prettier --config ./.prettierrc --write src/**/*.js src/**/**/*.js",
+    "lint": "eslint --ignore-path .gitignore src/",
+    "lint:fix": "eslint--ignore-path .gitignore src/ --fix",
     "build:dir": "mkdirp ./public/icons/",
     "build:favicons": "node scripts/favicons",
     "build": "yarn build:dir && yarn build:favicons && gatsby build",
@@ -40,6 +42,7 @@
     "react-helmet": "5.2.0",
     "react-icons": "3.4.0",
     "react-pose": "4.0.7",
+    "sharp": "^0.22.1",
     "styled-components": "4.1.3"
   },
   "devDependencies": {
