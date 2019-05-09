@@ -12,7 +12,7 @@
       "single"
     ],
     "click-events-have-key-events": false,
-    "prettier/prettier": "warn",
+    "prettier/prettier": "error",
     "jsx-a11y/click-events-have-key-events": 0,
     "jsx-a11y/no-noninteractive-element-interactions": 0,
     "react/display-name": [0, { "ignoreTranspilerName": 0 }]
