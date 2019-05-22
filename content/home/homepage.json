@@ -18,7 +18,7 @@
   },
   {
     "title": "osta.äpy.fi",
-    "copy": "A service to find Äpy sellers",
+    "copy": "A service to find Äpy sellers.",
     "image": "portfolio/images/osta-apy-fi.png",
     "description": "portfolio/osta-äpy-fi.md"
   },
@@ -27,6 +27,12 @@
     "copy": "My site!",
     "image": "portfolio/images/mysite.png",
     "description": "portfolio/mysite.md"
+  },
+  {
+    "title": "pora.ayy.fi",
+    "copy": "Polyteknikkojen Raittiusseura's site.",
+    "image": "portfolio/images/pora-ayy-fi.png",
+    "description": "portfolio/pora-ayy-fi.md"
   }],
   "education": [{
     "title": "Bachelor of Science",

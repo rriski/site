@@ -1,12 +1,13 @@
 <div class="markdown-video">
-  <video autoplay loop muted>
-    <source type="video/mp4" src="videos/apy-fi.mp4" />
-    <p>Your browser does not support the video element.</p>
+  <video autoplay>
+    <source src="videos/apy-fi.webm" type='video/webm' />
+    <source src="videos/apy-fi.mp4" type='video/mp4' />
+    <img src="images/apy-fi.png" title="Your browser does not support the <video> tag">
   </video>
 </div>
 
 ## About 
-The Finnish humour magazine Äpy is one of the cornerstones of the Finnish first of May festivities. Built with Gatsby, the [www.äpy.fi](https://www.apy.fi) website offers various improvements over the old wordpress-powered site.
+The Finnish humour magazine Äpy is one of the cornerstones of the Finnish first of May festivities. Built with Gatsby, the [www.äpy.fi](https://www.apy.fi) website offers various improvements over the old WordPress powered site.
 
 ## Technologies
 Gatsby v2, React. Deployed using [Netlify](https://www.netlify.com/).
