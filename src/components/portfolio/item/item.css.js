@@ -29,6 +29,6 @@ export const Copy = styled.p`
   margin: 1rem 2rem 4rem 2rem;
 
   ${MEDIA.PHONE`
-    margin: 0 0 4rem 0;
+    margin: 1rem 0 4rem 0;
   `};
 `
