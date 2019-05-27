@@ -1,35 +1,32 @@
-import React, { PureComponent } from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import ItemModal from 'components/portfolio/item/modal'
 import { Wrapper, Figure, Image, Copy } from './item.css'
-import { Title } from 'constants/styled.css'
+import { Title, A } from 'constants/styled.css'
 
-export default class Item extends PureComponent {
-  state = {
-    open: false,
-  }
+const Item = props => {
+  const { title, copy, image } = props
+  const [open, setOpen] = useState(false)
 
-  showModal = () => this.setState({ open: true })
-  hideModal = () => this.setState({ open: false })
+  const modalProps = { open, setOpen, ...props }
+  const link = `https://${title}`
 
-  render() {
-    const { title, copy, image } = this.props
-    const { open } = this.state
-    const modalProps = { open, hideModal: this.hideModal, ...this.props }
-
-    return (
-      <Wrapper>
-        <Figure onClick={this.showModal}>
-          <Image fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
-          <figcaption>
-            <Title>{title}</Title>
-            <Copy>{copy} Click to learn more!</Copy>
-          </figcaption>
-        </Figure>
-        <ItemModal {...modalProps} />
-      </Wrapper>
-    )
-  }
+  return (
+    <Wrapper>
+      <Figure onClick={() => setOpen(true)}>
+        <Image fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
+        <figcaption>
+          <Title>
+            <A href={link} target="_blank">
+              {title}
+            </A>
+          </Title>
+          <Copy>{copy} Click to learn more!</Copy>
+        </figcaption>
+      </Figure>
+      <ItemModal {...modalProps} />
+    </Wrapper>
+  )
 }
 
 Item.propTypes = {
@@ -38,3 +35,5 @@ Item.propTypes = {
   image: PropTypes.object.isRequired,
   description: PropTypes.object.isRequired,
 }
+
+export default Item

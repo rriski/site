@@ -1,16 +1,20 @@
-import React, { Component } from 'react'
+import React, { useState, useRef } from 'react'
 import PropTypes from 'prop-types'
 import { Provider } from './createContext'
 
-class AppProvider extends Component {
-  state = {
-    portfolioRef: React.createRef(),
-    skillsRef: React.createRef(),
-  }
+const AppProvider = props => {
+  const { children } = props
 
-  render() {
-    return <Provider value={this.state}>{this.props.children}</Provider>
-  }
+  const portfolioRef = useRef()
+  const skillsRef = useRef()
+
+  const [state, setState] = useState({ portfolioRef, skillsRef })
+
+  return (
+    <Provider value={state} setState={setState}>
+      {children}
+    </Provider>
+  )
 }
 
 AppProvider.propTypes = {

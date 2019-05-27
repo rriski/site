@@ -13,6 +13,7 @@ export const Figure = styled.figure`
 `
 
 export const Image = styled(Img)`
+  margin-bottom: 1rem;
   box-shadow: -1px 5px 13px 0px rgba(0, 0, 0, 0.23);
 
   @media (hover: hover) {
@@ -25,7 +26,7 @@ export const Image = styled(Img)`
 
 export const Copy = styled.p`
   color: ${textcolor};
-  margin: 0 2rem 4rem 2rem;
+  margin: 1rem 2rem 4rem 2rem;
 
   ${MEDIA.PHONE`
     margin: 0 0 4rem 0;

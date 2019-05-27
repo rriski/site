@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react'
+import React, { useEffect, useRef } from 'react'
 import PropTypes from 'prop-types'
 import {
   ModalContainer,
@@ -10,41 +10,29 @@ import {
 import ModalToggle from 'components/modal/toggle'
 import getScrollbarWidth from 'get-scrollbar-width'
 
-export default class Modal extends PureComponent {
-  constructor(props) {
-    super(props)
-    this.ModalRef = React.createRef()
-  }
-  componentDidMount() {
-    document.addEventListener('keydown', this.onKeyDown)
-    document.addEventListener('mousedown', this.handleClickOutside)
+const Modal = props => {
+  const { children, open, setOpen, title } = props
+  const modalRef = useRef()
+
+  const handleKeyDown = e => {
+    if (e.key === 'Escape') {
+      open && setOpen(false)
+    }
   }
 
-  componentWillUnmount() {
-    document.removeEventListener('keydown', this.onKeyDown)
-    document.removeEventListener('mousedown', this.handleClickOutside)
-  }
-
-  handleClickOutside = e => {
+  const handleClickOutside = e => {
     const clientX = e.clientX
     const clientY = e.clientY
-    const bRect = this.ModalRef.current.firstChild.getBoundingClientRect()
+    const bRect = modalRef.current.firstChild.getBoundingClientRect()
     const x = clientX > bRect.right || clientX < bRect.left
     const y = clientY < bRect.top || clientY > bRect.bottom
 
     if (x || y) {
-      const { hideModal } = this.props
-      hideModal()
+      setOpen(false)
     }
   }
 
-  onKeyDown = ({ key }) => {
-    if (key === 'Escape') {
-      this.props.open && this.props.hideModal()
-    }
-  }
-
-  disableScrolling(open) {
+  const disableScrolling = () => {
     const scrollbarWidth = getScrollbarWidth()
     if (open) {
       // Scrollbar is approximately 15px wide.
@@ -61,35 +49,43 @@ export default class Modal extends PureComponent {
     }
   }
 
-  render() {
-    const { children, open, hideModal, title } = this.props
-    const scrollbarWidth = getScrollbarWidth()
-    const modalProps = { open, scrollbarWidth }
-
-    if (typeof document !== 'undefined') {
-      this.disableScrolling(open)
+  useEffect(() => {
+    document.addEventListener('keydown', handleKeyDown)
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown)
+      document.removeEventListener('mousedown', handleClickOutside)
     }
+  }, [open])
 
-    return (
-      <>
-        <ModalContainer ref={this.ModalRef} open={open}>
-          <ModalMain {...modalProps}>
-            <ModalHeader>
-              <ModalToggle hideModal={hideModal} />
-              {title}
-            </ModalHeader>
-            <ModalBody>{children}</ModalBody>
-          </ModalMain>
-        </ModalContainer>
-        <ModalBackground open={open} />
-      </>
-    )
+  const scrollbarWidth = getScrollbarWidth()
+  const modalProps = { open, scrollbarWidth }
+
+  if (typeof document !== 'undefined') {
+    disableScrolling(open)
   }
+
+  return (
+    <>
+      <ModalContainer ref={modalRef} open={open}>
+        <ModalMain {...modalProps}>
+          <ModalHeader>
+            <ModalToggle setOpen={setOpen} />
+            {title}
+          </ModalHeader>
+          <ModalBody>{children}</ModalBody>
+        </ModalMain>
+      </ModalContainer>
+      <ModalBackground open={open} />
+    </>
+  )
 }
 
 Modal.propTypes = {
   children: PropTypes.node,
   open: PropTypes.bool.isRequired,
-  hideModal: PropTypes.func.isRequired,
+  setOpen: PropTypes.func.isRequired,
   title: PropTypes.string.isRequired,
 }
+
+export default Modal

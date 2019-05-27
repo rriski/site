@@ -2,10 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { ToggleModal } from './toggle.css'
 
-const ModalToggle = ({ hideModal }) => <ToggleModal onClick={hideModal} />
+const ModalToggle = ({ setOpen }) => (
+  <ToggleModal onClick={() => setOpen(false)} />
+)
 
 ModalToggle.propTypes = {
-  hideModal: PropTypes.func.isRequired,
+  setOpen: PropTypes.func.isRequired,
 }
 
 export default ModalToggle
