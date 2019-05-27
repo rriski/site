@@ -1,5 +1,5 @@
 <div class="markdown-video">
-  <video autoplay>
+  <video autoplay muted>
     <source src="videos/pora-ayy-fi.webm" type='video/webm' />
     <source src="videos/pora-ayy-fi.mp4" type='video/mp4' />
     <img src="images/pora-ayy-fi.png" title="Your browser does not support the <video> tag">
