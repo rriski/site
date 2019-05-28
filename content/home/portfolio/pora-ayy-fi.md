@@ -7,7 +7,7 @@
 </div>
 
 ## About 
-Polyteknikkojen Raittiusseura (PoRa) is an association based in Aalto University. With over 50 years of experience in sobriety operations in Otaniemi, PoRa's website [pora.ayy..fi](https://pora.ayy.fi) required a facelift to celebrate the 50th anniversary year.
+Polyteknikkojen Raittiusseura (PoRa) is an association based in Aalto University. With over 50 years of experience of sobriety operations in Otaniemi, PoRa's website [pora.ayy.fi](https://pora.ayy.fi) required a facelift to celebrate the 50th anniversary year.
 
 ## Technologies
 Nuxt.js, Vue.js. Deployed using [Netlify](https://www.netlify.com/).
