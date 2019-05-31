@@ -57,7 +57,7 @@
     "eslint-plugin-react": "7.13.0",
     "favicons": "5.4.0",
     "gatsby-plugin-eslint": "2.0.5",
-    "lighthouse": "5.0.0",
+    "lighthouse": "5.1.0",
     "mkdirp": "0.5.1",
     "node-gyp": "4.0.0",
     "prettier": "1.17.1"
