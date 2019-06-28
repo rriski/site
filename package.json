@@ -17,7 +17,7 @@
   "dependencies": {
     "core-js": "^3.1.4",
     "gatsby": "2.11.3",
-    "gatsby-image": "2.1.1",
+    "gatsby-image": "2.2.3",
     "gatsby-plugin-offline": "2.1.1",
     "gatsby-plugin-react-helmet": "3.0.12",
     "gatsby-plugin-react-svg": "2.1.1",
@@ -26,7 +26,7 @@
     "gatsby-plugin-styled-components": "3.0.7",
     "gatsby-plugin-webpack-size": "0.0.3",
     "gatsby-remark-copy-linked-files": "2.1.0",
-    "gatsby-remark-images": "3.0.13",
+    "gatsby-remark-images": "3.1.2",
     "gatsby-source-filesystem": "2.0.37",
     "gatsby-transformer-json": "2.1.11",
     "gatsby-transformer-remark": "2.3.12",
