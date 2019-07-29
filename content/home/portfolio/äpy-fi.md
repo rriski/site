@@ -15,7 +15,6 @@ Gatsby v2, React. Deployed using [Netlify](https://www.netlify.com/).
 ## Features
 - Built with [gatsby v2](https://www.gatsbyjs.org/)
 - CSS in JS with [emotion](https://emotion.sh/docs/introduction) v10
-- Code Splitting of CSS and JS (component based)
 - 3D logo using [three-js](https://threejs.org/)
 - [Prettier](https://prettier.io/) for code style
 - [ESLint](https://eslint.org/) (based on eslint-plugin-react)

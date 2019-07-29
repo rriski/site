@@ -16,7 +16,7 @@ Gatsby v2, React. Deployed using [Netlify](https://www.netlify.com/).
 - Code Splitting of CSS and JS (component based)
 - One config file for site-wide settings
 - [Prettier](https://prettier.io/) for code style
-- [ESLINT](https://eslint.org/) (based on eslint-plugin-react)
+- [ESLint](https://eslint.org/) (based on eslint-plugin-react)
 - Most social + meta tags in one component (head.js)
 - All favicons generated, only one icon file needed
 - Generated media queries for easy use
