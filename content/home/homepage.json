@@ -13,7 +13,7 @@
   {
     "title": "prodeko.org",
     "copy": "Aalto University's IEM student guild website.",
-    "image": "portfolio/images/prodeko-org.png",
+    "image": "portfolio/images/prodeko-org.jpg",
     "description": "portfolio/prodeko-org.md"
   },
   {
@@ -33,10 +33,16 @@
     "copy": "Polyteknikkojen Raittiusseura's site.",
     "image": "portfolio/images/pora-ayy-fi.png",
     "description": "portfolio/pora-ayy-fi.md"
+  },
+  {
+    "title": "infoscreen.prodeko.org",
+    "copy": "Infoscreen at Prodeko's guildroom.",
+    "image": "portfolio/images/prodeko-infoscreen.jpg",
+    "description": "portfolio/prodeko-infoscreen.md"
   }],
   "education": [{
     "title": "Bachelor of Science",
-    "copy": "Industrial Engineering and Management, Aalto School of Science | 2014 -"
+    "copy": "Industrial Engineering and Management, Aalto School of Science | 2015 - 2019"
   },
   {
     "title": "Matriculation examination",
@@ -60,7 +66,7 @@
   },
   {
     "title": "Infrastructure",
-    "text": "Docker, AWS, Azure, GCloud, Kubernetes"
+    "text": "Docker, AWS, Azure, GCloud"
   },
   {
     "title": "Analytics",

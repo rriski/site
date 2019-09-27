@@ -8,7 +8,6 @@ Gatsby v2, React. Deployed using [Netlify](https://www.netlify.com/).
 
 ## Features
 - Built with [gatsby v2](https://www.gatsbyjs.org/)
-- Page Transitions, component-based (with no-js support)
 - IntersectionObserver, component-based (with polyfill)
 - React Context for global UI state, with SSR
 - [styled-components](https://www.styled-components.com/) v4
