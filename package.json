@@ -30,7 +30,7 @@
     "gatsby-source-filesystem": "2.1.28",
     "gatsby-transformer-json": "2.2.11",
     "gatsby-transformer-remark": "2.6.26",
-    "gatsby-transformer-sharp": "2.2.19",
+    "gatsby-transformer-sharp": "2.3.6",
     "get-scrollbar-width": "1.0.4",
     "intersection-observer": "0.7.0",
     "prop-types": "15.7.2",
