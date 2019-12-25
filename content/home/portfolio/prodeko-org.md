@@ -17,9 +17,9 @@ Django + DjangoCMS + MySQL. Developed using Docker. Deployed to a server through
 - Google Directory API
 > *Automating the guild membership application process. Automatically managing mailing lists stored in G Suite.*
 - Google Analytics
-> *Custom GA events for AJAX form submissions using Google Tag Manager.*
+> *Configuration management using Google Tag Manager.
 
 ## Old site
-The old site ran on Wordpress and felt outdated for 2019. SEO was nonexistent as searching for "tuotantotalous" yielded prodeko.org on the fourth page of Google search results.
+The old site ran on Wordpress and was badly outdated.
 
 ![prodeko.org](images/old-prodeko-org.png)

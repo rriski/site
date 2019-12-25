@@ -14,4 +14,4 @@ React. Deployed to Deployed to AWS S3 + Cloudfront CDN using CloudFormation.
 - [Stylelint](https://stylelint.io/) for SCSS linting
 - [Redux](https://redux.js.org/introduction/getting-started), [React hooks](https://reactjs.org/docs/hooks-intro.html) for state handling
 - Google Maps Javascript API for displaying locations
-- Google Analytics event integration for key user interactions on the site
+- Google Analytics event integration for key user interactions
