@@ -1,5 +1,5 @@
-import test from 'ava'
-import siteUrl from '../site-config'
+const test = require('ava')
+const siteUrl = require('../site-config')
 const chromeLauncher = require('chrome-launcher')
 const lighthouse = require('lighthouse')
 

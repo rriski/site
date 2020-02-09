@@ -11,20 +11,14 @@ const scrollToRef = ref => {
   }
 }
 
-// href="javascript:;" makes the links focusable via tab
-// and thus more accessible.
 const Nav = React.forwardRef((ref, props) => (
   <>
     <Ul {...props}>
       <li>
-        <A href="javascript:;" onClick={() => scrollToRef(ref.portfolioRef)}>
-          Projects
-        </A>
+        <A onClick={() => scrollToRef(ref.portfolioRef)}>Projects</A>
       </li>
       <li>
-        <A href="javascript:;" onClick={() => scrollToRef(ref.skillsRef)}>
-          Skills
-        </A>
+        <A onClick={() => scrollToRef(ref.skillsRef)}>Skills</A>
       </li>
     </Ul>
   </>

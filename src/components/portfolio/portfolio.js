@@ -9,7 +9,7 @@ const Portfolio = ({ items, portfolioRef }) => (
     <H>Projects</H>
     <Container>
       {items.map((item, i) => (
-        <Item {...item} key={i} />
+        <Item index={i} {...item} key={i} />
       ))}
     </Container>
   </Wrapper>

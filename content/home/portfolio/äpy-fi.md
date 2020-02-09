@@ -7,10 +7,10 @@
 </div>
 
 ## About 
-The Finnish humour magazine Äpy is one of the cornerstones of the Finnish first of May festivities. Built with Gatsby, the [www.äpy.fi](https://www.apy.fi) website offers various improvements over the old WordPress powered site.
+The Finnish humour magazine Äpy gets published during the Finnish first of May festivities. Built with Gatsby, the [www.äpy.fi](https://www.apy.fi) website offers various improvements such as modern look and feel & theming, over the old WordPress powered site.
 
 ## Technologies
-Gatsby v2, React. Deployed using [Netlify](https://www.netlify.com/).
+Gatsby v2, React. Deployed using [![Netlify Status](https://api.netlify.com/api/v1/badges/95244788-da8c-4ecf-9ade-7dfed82962c3/deploy-status)](https://app.netlify.com/sites/elastic-bartik-75d6af/deploys). Repository: https://github.com/wappulehti-apy/apy-fi.
 
 ## Features
 - Built with [gatsby v2](https://www.gatsbyjs.org/)

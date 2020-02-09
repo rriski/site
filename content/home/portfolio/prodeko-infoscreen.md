@@ -4,7 +4,7 @@
 Infoscreen is a TV screen located at Prodeko's guildroom. It is used to convey useful information such as upcoming events, student restaurant menus, public transportation timetables and general information to guildmembers.
 
 ## Technologies
-Next.js, TypeScript. Deployed to a server using [pm2](https://www.npmjs.com/package/pm2).
+Next.js, TypeScript. Deployed to Azure App Services using Github Actions. Repository: https://github.com/Prodeko/infoscreen.
 
 ## Features
 - Built with [Next.js](https://nextjs.org/) + [TypeScript](https://www.typescriptlang.org/)

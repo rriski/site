@@ -8,37 +8,49 @@
     "title": "äpy.fi",
     "copy": "Wappu magazine Äpy's website.",
     "image": "portfolio/images/apy-fi.png",
-    "description": "portfolio/äpy-fi.md"
+    "description": "portfolio/äpy-fi.md",
+    "link": "https://apy.fi",
+    "github_url": "https://github.com/wappulehti-apy/apy-fi"
   },
   {
     "title": "prodeko.org",
     "copy": "Aalto University's IEM student guild website.",
     "image": "portfolio/images/prodeko-org.jpg",
-    "description": "portfolio/prodeko-org.md"
+    "description": "portfolio/prodeko-org.md",
+    "link": "https://prodeko.org",
+    "github_url": "https://github.com/Prodeko/prodeko-org-djangocms"
   },
   {
     "title": "osta.äpy.fi",
     "copy": "A service to find Äpy sellers.",
     "image": "portfolio/images/osta-apy-fi.png",
-    "description": "portfolio/osta-äpy-fi.md"
+    "description": "portfolio/osta-äpy-fi.md",
+    "link": "",
+    "github_url": ""
   },
   {
     "title": "timoriski.fi",
     "copy": "My site!",
     "image": "portfolio/images/mysite.png",
-    "description": "portfolio/mysite.md"
+    "description": "portfolio/mysite.md",
+    "link": "https://timoriski.fi",
+    "github_url": "https://github.com/rriski/site"
   },
   {
-    "title": "pora.ayy.fi",
+    "title": "raittiusseura.org",
     "copy": "Polyteknikkojen Raittiusseura's site.",
-    "image": "portfolio/images/pora-ayy-fi.png",
-    "description": "portfolio/pora-ayy-fi.md"
+    "image": "portfolio/images/raittiusseura-org.png",
+    "description": "portfolio/raittiusseura-org.md",
+    "link": "https://raittiusseura.org",
+    "github_url": "https://github.com/rriski/pora-site"
   },
   {
     "title": "infoscreen.prodeko.org",
     "copy": "Infoscreen at Prodeko's guildroom.",
     "image": "portfolio/images/prodeko-infoscreen.jpg",
-    "description": "portfolio/prodeko-infoscreen.md"
+    "description": "portfolio/prodeko-infoscreen.md",
+    "link": "https://infoscreen.prodeko.org",
+    "github_url": "https://github.com/Prodeko/infoscreen"
   }],
   "education": [{
     "title": "Bachelor of Science",
@@ -54,11 +66,11 @@
   }],
   "skills": [{
     "title": "Frameworks",
-    "text": "React, Vue, Django, Flask"
+    "text": "React, Vue, Node.js, Django, Flask"
   },
   {
     "title": "Languages",
-    "text": "Javascript (ES6), Python, C, C++, Scala"
+    "text": "Javascript (ES6), TypeScript, Python, C, C++, Scala"
   },
   {
     "title": "Servers & Databases",

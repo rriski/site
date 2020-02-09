@@ -54,6 +54,8 @@ export const query = graphql`
             }
           }
         }
+        link
+        github_url
       }
       skills {
         title

@@ -21,12 +21,13 @@ export const H = styled.h1`
 export const A = styled.a`
   color: black;
   text-decoration: none;
+  margin: ${({ margin }) => margin};
 `
 
 export const Title = styled.span`
   font-size: 2rem;
   font-weight: 800;
-  margin: 2rem 2rem 1rem 2rem;
+  margin: 0 1.5rem 0 2rem;
 
   ${MEDIA.PHONE`
     margin: 1rem 0;
