@@ -4,7 +4,9 @@
 The site you're currently browsing!
 
 ## Technologies
-Gatsby v2, React. Deployed using [![Netlify Status](https://api.netlify.com/api/v1/badges/d6683b5d-73c9-48a1-a865-2d4c7a47f7b6/deploy-status)](https://app.netlify.com/sites/friendly-allen-741b4f/deploys). Repository: https://github.com/rriski/site.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d6683b5d-73c9-48a1-a865-2d4c7a47f7b6/deploy-status)](https://app.netlify.com/sites/friendly-allen-741b4f/deploys)
+
+Gatsby v2, React. Deployed using Netlify. Repository: https://github.com/rriski/site.
 
 ## Features
 - Built with [gatsby v2](https://www.gatsbyjs.org/)

@@ -11,6 +11,7 @@ Django + DjangoCMS + MySQL + Redis. Developed using Docker. Deployed to a server
 - [unittest](https://docs.python.org/3/library/unittest.html#module-unittest) for testing 
 - Internationalization & localization in Finnish and English.
 - Dynamic form submission + PDF generation from form data.
+- CDN hosted on Azure for site performance.
 > *The reimbursement form is used to by guild members to reimburse expenses from the guild. The form is dynamic (e.g. form fields can be added and removed so that multiple reimbursements can be processed at once).*
 - Google Drive API 
 > *Downloading board meeting documents and attachments automatically.*

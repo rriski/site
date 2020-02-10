@@ -15,6 +15,7 @@
     "test": "ava **/*.test.js --verbose"
   },
   "dependencies": {
+    "babel-plugin-styled-components": "^1.10.7",
     "core-js": "^3.6.4",
     "gatsby": "2.19.12",
     "gatsby-image": "2.2.40",
@@ -23,7 +24,7 @@
     "gatsby-plugin-react-svg": "3.0.0",
     "gatsby-plugin-sharp": "2.4.5",
     "gatsby-plugin-sitemap": "2.2.27",
-    "gatsby-plugin-styled-components": "3.1.19",
+    "gatsby-plugin-styled-components": "^3.1.19",
     "gatsby-plugin-webpack-size": "1.0.0",
     "gatsby-remark-copy-linked-files": "2.1.37",
     "gatsby-remark-images": "3.1.44",
@@ -40,7 +41,7 @@
     "react-icons": "3.9.0",
     "react-pose": "4.0.10",
     "sharp": "^0.24.0",
-    "styled-components": "5.0.1"
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
