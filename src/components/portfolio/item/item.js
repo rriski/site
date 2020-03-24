@@ -5,7 +5,7 @@ import ItemModal from 'components/portfolio/item/modal'
 import { Wrapper, Figure, Image, Copy } from './item.css'
 import { Title, A } from 'constants/styled.css'
 
-const Item = props => {
+const Item = (props) => {
   const { index, title, copy, image, link, github_url } = props
   const [open, setOpen] = useState(false)
 
@@ -19,9 +19,9 @@ const Item = props => {
         </div>
         <figcaption>
           <Title>
-            <A href={link} target="_blank" rel="noreferrer noopener">
+            <span href={link} target="_blank" rel="noreferrer noopener">
               {title}
-            </A>
+            </span>
           </Title>
           {link && (
             <A

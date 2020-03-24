@@ -11,9 +11,9 @@ function getIO(rootMargin = '-50px') {
     window.IntersectionObserver
   ) {
     io = new window.IntersectionObserver(
-      entries => {
-        entries.forEach(entry => {
-          listeners.forEach(l => {
+      (entries) => {
+        entries.forEach((entry) => {
+          listeners.forEach((l) => {
             if (l[0] === entry.target) {
               // Edge doesn't currently support isIntersecting, so also test for an intersectionRatio > 0
               if (entry.isIntersecting || entry.intersectionRatio > 0) {
@@ -90,8 +90,8 @@ export default class IO extends Component {
   listenToIntersections = () => {
     this.io = listenToIntersections(
       this.ref.current,
-      isVisible => {
-        this.setState(state => {
+      (isVisible) => {
+        this.setState((state) => {
           let newState = {}
 
           if (!state.hasBeenVisible && isVisible) {

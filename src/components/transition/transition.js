@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import posed, { PoseGroup } from 'react-pose'
 import { timeout } from 'constants/transition'
 
-const Transition = props => {
+const Transition = (props) => {
   const { children, location } = props
 
   const RoutesContainer = posed.div({

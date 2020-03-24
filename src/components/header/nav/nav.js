@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Ul, A } from './nav.css'
 
-const scrollToRef = ref => {
+const scrollToRef = (ref) => {
   if (ref.current) {
     window.scrollTo({
       top: ref.current.offsetTop,

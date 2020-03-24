@@ -10,17 +10,17 @@ import {
 import ModalToggle from 'components/modal/toggle'
 import getScrollbarWidth from 'get-scrollbar-width'
 
-const Modal = props => {
+const Modal = (props) => {
   const { children, open, setOpen, title } = props
   const modalRef = useRef()
 
-  const handleKeyDown = e => {
+  const handleKeyDown = (e) => {
     if (e.key === 'Escape') {
       open && setOpen(false)
     }
   }
 
-  const handleClickOutside = e => {
+  const handleClickOutside = (e) => {
     const clientX = e.clientX
     const clientY = e.clientY
     const bRect = modalRef.current.firstChild.getBoundingClientRect()

@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react'
 import PropTypes from 'prop-types'
 import { Provider } from './createContext'
 
-const AppProvider = props => {
+const AppProvider = (props) => {
   const { children } = props
 
   const portfolioRef = useRef()

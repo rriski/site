@@ -7,7 +7,7 @@
 </div>
 
 ## About 
-Polyteknikkojen Raittiusseura (PoRa) is an association based in Aalto University. For the association's 50th anniversary, PoRa's website [pora.ayy.fi](https://raittiusseura.org) required a facelift.
+Polyteknikkojen Raittiusseura (PoRa) is an association based in Aalto University. For the association's 50th anniversary, PoRa's website [raittiusseura.org](https://raittiusseura.org) required a facelift.
 
 ## Technologies
 [![Netlify Status](https://api.netlify.com/api/v1/badges/64a37b8b-5679-4d64-96e6-5ff6531b57b5/deploy-status)](https://app.netlify.com/sites/vibrant-liskov-f9ac39/deploys)

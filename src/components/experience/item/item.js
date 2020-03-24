@@ -10,7 +10,7 @@ const Item = ({ title, roles, description }) => (
       <Wrapper isVisible={hasBeenVisible}>
         <Title>{title}</Title>
         <ul>
-          {roles.map(role => {
+          {roles.map((role) => {
             return Object.keys(role).map((year, i) => {
               return role[year] ? (
                 <Li key={i}>
