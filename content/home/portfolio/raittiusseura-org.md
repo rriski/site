@@ -17,7 +17,7 @@ Nuxt.js, Vue.js. Deployed using Netlify. Repository: https://github.com/rriski/p
 ## Features
 - Built with [Nuxt.js](https://nuxtjs.org/)
 - Headless CMS with [Storyblok](https://www.storyblok.com/)
-- Internationalization in Finnish, Netherlands and English
+- Internationalization in Finnish, Dutch and English
 - [Prettier](https://prettier.io/) for code style
 - [ESLint](https://eslint.org/) (based on eslint-plugin-vue)
 - Google Calendar Javascript API to fetch upcoming events

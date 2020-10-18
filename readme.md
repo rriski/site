@@ -8,7 +8,7 @@ My personal website built with Gatsby.
 # Installation
 $ git clone git@github.com:riski/site.git
 $ cd site
-$ yarn
-$ yarn develop
+$ npm i
+$ npm develop
 $ open http://localhost:8000
 ```

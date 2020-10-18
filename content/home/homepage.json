@@ -59,10 +59,6 @@
   {
     "title": "Matriculation examination",
     "copy": "Mäkelänrinne High School | 2011 - 2014"
-  },
-  {
-    "title": "Matriculation examination",
-    "copy": "Mäkelänrinne High School | 2011 - 2014"
   }],
   "skills": [{
     "title": "Frameworks",
@@ -74,11 +70,11 @@
   },
   {
     "title": "Servers & Databases",
-    "text": "NGINX, Apache, MySQL, PostgreSQL"
+    "text": "NGINX, Caddy, Apache, MySQL, PostgreSQL"
   },
   {
     "title": "Infrastructure",
-    "text": "Docker, Terraform, AWS, Azure, GCloud"
+    "text": "Docker, Terraform, Ansible, AWS, Azure, GCloud"
   },
   {
     "title": "Analytics",
