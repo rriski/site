@@ -4,7 +4,16 @@
     "image": "../images/me.jpg"
   },
   "textcarousel": ["developer 👨🏻‍💻", "student 👨🏻‍🎓", "football ️️⚽️", "skiing ⛷"],
-  "portfolio": [{
+  "portfolio": [
+    {
+      "title": "ilmo3.prodeko.org",
+      "copy": "A service for event registrations.",
+      "image": "portfolio/images/ilmo3.png",
+      "description": "portfolio/ilmo3.md",
+      "link": "https://ilmo3.prodeko.org",
+      "github_url": "https://github.com/prodeko/ilmo"
+    },
+    {
     "title": "äpy.fi",
     "copy": "Wappu magazine Äpy's website.",
     "image": "portfolio/images/apy-fi.png",
@@ -62,7 +71,7 @@
   }],
   "skills": [{
     "title": "Frameworks",
-    "text": "React, Vue, Node.js, Django, Flask"
+    "text": "React, Vue, Node.js, Django, Flask, Next.js"
   },
   {
     "title": "Languages",
@@ -74,11 +83,11 @@
   },
   {
     "title": "Infrastructure",
-    "text": "Docker, Terraform, Ansible, AWS, Azure, GCloud"
+    "text": "Docker, Terraform, Ansible, AWS, Azure, GCloud, basics of Kubernetes"
   },
   {
     "title": "Analytics",
-    "text": "R (tidyverse), Python (pandas, NumPy), Jupyter"
+    "text": "R (tidyverse), Python (pandas, NumPy), Jupyter basics of Machine Learning"
   }],
   "experience": [{
     "title": "Prodeko Board",

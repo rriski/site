@@ -12,3 +12,4 @@ Next.js, TypeScript. Deployed to Azure App Services using Github Actions. Reposi
 - Uses the API behing https://kanttiinit.fi/ to fetch student restaurant menus in Otaniemi
 - [Prettier](https://prettier.io/) for code style
 - [ESLint](https://eslint.org/) (based on eslint-plugin-react)
+- Automatic deployment via Github Actions CI/CD and Ansible
