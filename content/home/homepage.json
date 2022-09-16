@@ -6,11 +6,11 @@
   "textcarousel": ["developer 👨🏻‍💻", "student 👨🏻‍🎓", "football ️️⚽️", "skiing ⛷"],
   "portfolio": [
     {
-      "title": "ilmo3.prodeko.org",
+      "title": "ilmo.prodeko.org",
       "copy": "A service for event registrations.",
-      "image": "portfolio/images/ilmo3.png",
-      "description": "portfolio/ilmo3.md",
-      "link": "https://ilmo3.prodeko.org",
+      "image": "portfolio/images/ilmo.png",
+      "description": "portfolio/ilmo.md",
+      "link": "https://ilmo.prodeko.org",
       "github_url": "https://github.com/prodeko/ilmo"
     },
     {

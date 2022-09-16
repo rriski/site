@@ -1,7 +1,7 @@
-![ilmo3.prodeko.org](images/ilmo3.png)
+![ilmo.prodeko.org](images/ilmo.png)
 
-## About 
-Ilmo3 is the upcoming event registration system for the guild of Industrial Engineering and Management students Prodeko. The old system [ilmo.prodeko.org](https://ilmo.prodeko.org) developed in 2012 using PHP is in need of some refreshment. The project is based on database-driven development. Creating a database table automatically reflects the changes onto the GraphQL API and generates React hooks for fetching the data.
+## About
+ilmo is the upcoming event registration system for the guild of Industrial Engineering and Management students Prodeko. The old system [ilmo.prodeko.org](https://ilmo.prodeko.org) developed in 2012 using PHP is in need of some refreshment. The project is based on database-driven development. Creating a database table automatically reflects the changes onto the GraphQL API and generates React hooks for fetching the data.
 
 ## Technologiess
 React, GraphQL, PostGraphile, Next.js, TypeScript. Developed and deployed with Docker. Repository: https://github.com/prodeko/ilmo.
