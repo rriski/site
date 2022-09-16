@@ -6,7 +6,7 @@ const Footer = () => (
   <Ul>
     <Li>
       <FaEnvelope />
-      <A href="mailto:timo.h.riski@outlook.com">Email</A>
+      <A href="mailto:timo@timoriski.fi">Email</A>
     </Li>
     <Li>
       <FaGithub />
