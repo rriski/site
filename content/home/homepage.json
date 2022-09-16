@@ -61,7 +61,12 @@
     "link": "https://infoscreen.prodeko.org",
     "github_url": "https://github.com/Prodeko/infoscreen"
   }],
-  "education": [{
+  "education": [
+  {
+    "title": "Master of Science (Technology)",
+    "copy": "Master's programme in Industrial Engineering and Management, Strategy and Venturing | 2019 - 2022"
+  },
+  {
     "title": "Bachelor of Science",
     "copy": "Industrial Engineering and Management, Aalto School of Science | 2015 - 2019"
   },
@@ -69,21 +74,34 @@
     "title": "Matriculation examination",
     "copy": "Mäkelänrinne High School | 2011 - 2014"
   }],
-  "skills": [{
+  "skills": [
+  {
     "title": "Frameworks",
-    "text": "React, Vue, Node.js, Django, Flask, Next.js"
+    "text": "React, Vue, Node.js, Django, Flask, Next.js, PostGraphile"
   },
   {
     "title": "Languages",
-    "text": "Javascript (ES6), TypeScript, Python, C, C++, Scala"
+    "text": "Javascript, TypeScript, Python, C, C++"
   },
   {
-    "title": "Servers & Databases",
-    "text": "NGINX, Caddy, Apache, MySQL, PostgreSQL"
+    "title": "Servers",
+    "text": "NGINX, Caddy, Apache, Traefik"
+  },
+  {
+    "title": "Databases",
+    "text": "MySQL, PostgreSQL, AWS DynamoDB"
+  },
+  {
+    "title": "CI/CD",
+    "text": "Github Actions, GitLab CI/CD, Jenkins"
   },
   {
     "title": "Infrastructure",
-    "text": "Docker, Terraform, Ansible, AWS, Azure, GCloud, basics of Kubernetes"
+    "text": "Docker, Terraform, Ansible, Kubernetes, AWS CDK, Argo CD"
+  },
+  {
+    "title": "Clouds",
+    "text": "AWS, Azure, GCloud, Oracle Coud"
   },
   {
     "title": "Analytics",
