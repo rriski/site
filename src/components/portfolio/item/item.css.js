@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage } from 'gatsby-plugin-image'
 import { textcolor } from 'constants/theme'
 import MEDIA from 'helpers/mediaTemplates'
 

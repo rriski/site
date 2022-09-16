@@ -15,7 +15,10 @@ const Item = (props) => {
     <Wrapper>
       <Figure>
         <div role="button" tabIndex={index} onClick={() => setOpen(true)}>
-          <Image fluid={image ? image.childImageSharp.gatsbyImageData : {}} alt={title} />
+          <Image
+            fluid={image ? image.childImageSharp.gatsbyImageData : {}}
+            alt={title}
+          />
         </div>
         <figcaption>
           <Title>
@@ -48,7 +51,7 @@ const Item = (props) => {
       </Figure>
       <ItemModal {...modalProps} />
     </Wrapper>
-  );
+  )
 }
 
 Item.propTypes = {
