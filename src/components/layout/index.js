@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
-import Head from 'components/head'
 import Header from 'components/header'
 import Footer from 'components/footer'
 import { Wrapper } from './layout.css'
@@ -21,7 +20,6 @@ const Layout = ({ children }) => {
   return (
     <Wrapper>
       <GlobalStyle />
-      <Head />
       <Header title={data.site.siteMetadata.siteTitle} />
       {children}
       <Footer />

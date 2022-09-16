@@ -1,11 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Location } from '@reach/router'
 import schemaGenerator from 'helpers/schemaGenerator'
 
-const Head = () => {
+export const Head = () => {
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -36,7 +35,7 @@ const Head = () => {
       {({ location }) => {
         const canonical = siteUrl + (location.pathname || '')
         return (
-          <Helmet>
+          <>
             <html lang="en" />
 
             <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
@@ -179,7 +178,7 @@ const Head = () => {
                 })
               )}
             </script>
-          </Helmet>
+          </>
         )
       }}
     </Location>
