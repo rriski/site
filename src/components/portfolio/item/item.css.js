@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Img from 'gatsby-image'
+import { GatsbyImage } from "gatsby-plugin-image";
 import { textcolor } from 'constants/theme'
 import MEDIA from 'helpers/mediaTemplates'
 
@@ -12,7 +12,7 @@ export const Figure = styled.figure`
   margin: 0;
 `
 
-export const Image = styled(Img)`
+export const Image = styled(GatsbyImage)`
   margin-bottom: 1rem;
   box-shadow: -1px 5px 13px 0px rgba(0, 0, 0, 0.23);
 

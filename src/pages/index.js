@@ -24,58 +24,53 @@ Index.propTypes = {
 
 export default Index
 
-export const query = graphql`
-  query HomepageQuery {
-    homeJson {
-      hello
-      me {
-        image {
-          childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
+export const query = graphql`query HomepageQuery {
+  homeJson {
+    hello
+    me {
+      image {
+        childImageSharp {
+          gatsbyImageData(height: 500, quality: 90, layout: FULL_WIDTH)
         }
       }
-      textcarousel
-      portfolio {
-        title
-        copy
-        description {
-          childMarkdownRemark {
-            html
-            rawMarkdownBody
-          }
+    }
+    textcarousel
+    portfolio {
+      title
+      copy
+      description {
+        childMarkdownRemark {
+          html
+          rawMarkdownBody
         }
-        image {
-          childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
-        link
-        github_url
       }
-      skills {
-        title
-        text
-      }
-      experience {
-        title
-        roles {
-          _2016
-          _2017
-          _2018
-          _2019
+      image {
+        childImageSharp {
+          gatsbyImageData(height: 500, quality: 90, layout: FULL_WIDTH)
         }
-        description {
-          childMarkdownRemark {
-            html
-            rawMarkdownBody
-          }
+      }
+      link
+      github_url
+    }
+    skills {
+      title
+      text
+    }
+    experience {
+      title
+      roles {
+        _2016
+        _2017
+        _2018
+        _2019
+      }
+      description {
+        childMarkdownRemark {
+          html
+          rawMarkdownBody
         }
       }
     }
   }
+}
 `

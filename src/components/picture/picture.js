@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Image } from './picture.css'
 
 const Picture = ({ image }) => (
-  <Image fluid={image ? image.childImageSharp.fluid : {}} alt="It's me!" />
+  <Image fluid={image ? image.childImageSharp.gatsbyImageData : {}} alt="It's me!" />
 )
 
 Picture.propTypes = {

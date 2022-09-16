@@ -10,6 +10,7 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-transformer-json',
     'gatsby-plugin-eslint',
+    'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-styled-components',
@@ -47,7 +48,7 @@ module.exports = {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {
-          include: '/images/',
+          include: /images/,
         },
       },
     },
