@@ -1,35 +1,22 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
-import posed from 'react-pose'
+import { motion } from 'framer-motion'
 import { Container, Title } from './header.css'
 import Nav from 'containers/nav'
 
-// Example of a component-specific page transition
-const AnimatedContainer = posed.div({
-  enter: {
-    y: 0,
-    transition: {
-      ease: 'easeInOut',
-    },
-  },
-  exit: {
-    y: '-10%',
-    transition: {
-      ease: ' ',
-    },
-  },
-})
-
 const Header = ({ title }) => (
-  <AnimatedContainer>
+  <motion.div
+    animate={{ y: '-5%' }}
+    transition={{ ease: 'easeInOut', duration: 0.1 }}
+  >
     <Container>
       <Link to="/">
         <Title as="h1">{title}</Title>
       </Link>
       <Nav />
     </Container>
-  </AnimatedContainer>
+  </motion.div>
 )
 
 Header.propTypes = {
