@@ -33,7 +33,7 @@ export const query = graphql`
       me {
         image {
           childImageSharp {
-            gatsbyImageData(height: 500, quality: 90, layout: FULL_WIDTH)
+            gatsbyImageData(quality: 90, layout: FULL_WIDTH)
           }
         }
       }
@@ -49,7 +49,7 @@ export const query = graphql`
         }
         image {
           childImageSharp {
-            gatsbyImageData(height: 500, quality: 90, layout: FULL_WIDTH)
+            gatsbyImageData(quality: 90, layout: FULL_WIDTH)
           }
         }
         link
