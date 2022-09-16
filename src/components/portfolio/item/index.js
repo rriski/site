@@ -16,7 +16,7 @@ const Item = (props) => {
       <Figure>
         <div role="button" tabIndex={index} onClick={() => setOpen(true)}>
           <Image
-            fluid={image ? image.childImageSharp.gatsbyImageData : {}}
+            image={image ? image.childImageSharp.gatsbyImageData : {}}
             alt={title}
           />
         </div>

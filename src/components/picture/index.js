@@ -4,7 +4,7 @@ import { Image } from './picture.css'
 
 const Picture = ({ image }) => (
   <Image
-    fluid={image ? image.childImageSharp.gatsbyImageData : {}}
+    image={image ? image.childImageSharp.gatsbyImageData : {}}
     alt="It's me!"
   />
 )

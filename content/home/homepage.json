@@ -3,61 +3,61 @@
   "me": {
     "image": "../images/me.jpg"
   },
-  "textcarousel": ["developer 👨🏻‍💻", "student 👨🏻‍🎓", "football ️️⚽️", "skiing ⛷"],
+  "textcarousel": ["developer 👨🏻‍💻", "football ️️⚽️", "skiing ⛷"],
   "portfolio": [
     {
       "title": "ilmo.prodeko.org",
       "copy": "A service for event registrations.",
-      "image": "portfolio/images/ilmo.png",
-      "description": "portfolio/ilmo.md",
+      "image": "../home/portfolio/images/ilmo.png",
+      "description": "../home/portfolio/ilmo.md",
       "link": "https://ilmo.prodeko.org",
       "github_url": "https://github.com/prodeko/ilmo"
     },
     {
     "title": "äpy.fi",
     "copy": "Wappu magazine Äpy's website.",
-    "image": "portfolio/images/apy-fi.png",
-    "description": "portfolio/äpy-fi.md",
+    "image": "../home/portfolio/images/apy-fi.png",
+    "description": "../home/portfolio/äpy-fi.md",
     "link": "https://apy.fi",
     "github_url": "https://github.com/wappulehti-apy/apy-fi"
   },
   {
     "title": "prodeko.org",
     "copy": "Aalto University's IEM student guild website.",
-    "image": "portfolio/images/prodeko-org.jpg",
-    "description": "portfolio/prodeko-org.md",
+    "image": "../home/portfolio/images/prodeko-org.jpg",
+    "description": "../home/portfolio/prodeko-org.md",
     "link": "https://prodeko.org",
     "github_url": "https://github.com/Prodeko/prodeko-org-djangocms"
   },
   {
     "title": "osta.äpy.fi",
     "copy": "A service to find Äpy sellers.",
-    "image": "portfolio/images/osta-apy-fi.png",
-    "description": "portfolio/osta-äpy-fi.md",
+    "image": "../home/portfolio/images/osta-apy-fi.png",
+    "description": "../home/portfolio/osta-äpy-fi.md",
     "link": "",
     "github_url": ""
   },
   {
     "title": "timoriski.fi",
     "copy": "My site!",
-    "image": "portfolio/images/mysite.png",
-    "description": "portfolio/mysite.md",
+    "image": "../home/portfolio/images/mysite.png",
+    "description": "../home/portfolio/mysite.md",
     "link": "https://timoriski.fi",
     "github_url": "https://github.com/rriski/site"
   },
   {
     "title": "raittiusseura.org",
     "copy": "Polyteknikkojen Raittiusseura's site.",
-    "image": "portfolio/images/raittiusseura-org.png",
-    "description": "portfolio/raittiusseura-org.md",
+    "image": "../home/portfolio/images/raittiusseura-org.png",
+    "description": "../home/portfolio/raittiusseura-org.md",
     "link": "https://raittiusseura.org",
     "github_url": "https://github.com/rriski/pora-site"
   },
   {
     "title": "infoscreen.prodeko.org",
     "copy": "Infoscreen at Prodeko's guildroom.",
-    "image": "portfolio/images/prodeko-infoscreen.jpg",
-    "description": "portfolio/prodeko-infoscreen.md",
+    "image": "../home/portfolio/images/prodeko-infoscreen.jpg",
+    "description": "../home/portfolio/prodeko-infoscreen.md",
     "link": "https://infoscreen.prodeko.org",
     "github_url": "https://github.com/Prodeko/infoscreen"
   }],
