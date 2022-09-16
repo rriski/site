@@ -15,7 +15,6 @@
     "test": "ava **/*.test.js --verbose"
   },
   "dependencies": {
-    "babel-plugin-styled-components": "^2.0.7",
     "framer-motion": "^7.3.5",
     "gatsby": "4.23.0",
     "gatsby-plugin-image": "^2.23.0",
