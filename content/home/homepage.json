@@ -3,7 +3,11 @@
   "me": {
     "image": "../images/me.jpg"
   },
-  "textcarousel": ["developer 👨🏻‍💻", "football ️️⚽️", "skiing ⛷"],
+  "textcarousel": [
+    "developer 👨🏻‍💻",
+    "football ️️⚽️",
+    "skiing ⛷"
+  ],
   "portfolio": [
     {
       "title": "ilmo.prodeko.org",
@@ -14,124 +18,135 @@
       "github_url": "https://github.com/prodeko/ilmo"
     },
     {
-    "title": "äpy.fi",
-    "copy": "Wappu magazine Äpy's website.",
-    "image": "../home/portfolio/images/apy-fi.png",
-    "description": "../home/portfolio/äpy-fi.md",
-    "link": "https://apy.fi",
-    "github_url": "https://github.com/wappulehti-apy/apy-fi"
-  },
-  {
-    "title": "prodeko.org",
-    "copy": "Aalto University's IEM student guild website.",
-    "image": "../home/portfolio/images/prodeko-org.jpg",
-    "description": "../home/portfolio/prodeko-org.md",
-    "link": "https://prodeko.org",
-    "github_url": "https://github.com/Prodeko/prodeko-org-djangocms"
-  },
-  {
-    "title": "osta.äpy.fi",
-    "copy": "A service to find Äpy sellers.",
-    "image": "../home/portfolio/images/osta-apy-fi.png",
-    "description": "../home/portfolio/osta-äpy-fi.md",
-    "link": "",
-    "github_url": ""
-  },
-  {
-    "title": "timoriski.fi",
-    "copy": "My site!",
-    "image": "../home/portfolio/images/mysite.png",
-    "description": "../home/portfolio/mysite.md",
-    "link": "https://timoriski.fi",
-    "github_url": "https://github.com/rriski/site"
-  },
-  {
-    "title": "raittiusseura.org",
-    "copy": "Polyteknikkojen Raittiusseura's site.",
-    "image": "../home/portfolio/images/raittiusseura-org.png",
-    "description": "../home/portfolio/raittiusseura-org.md",
-    "link": "https://raittiusseura.org",
-    "github_url": "https://github.com/rriski/pora-site"
-  },
-  {
-    "title": "infoscreen.prodeko.org",
-    "copy": "Infoscreen at Prodeko's guildroom.",
-    "image": "../home/portfolio/images/prodeko-infoscreen.jpg",
-    "description": "../home/portfolio/prodeko-infoscreen.md",
-    "link": "https://infoscreen.prodeko.org",
-    "github_url": "https://github.com/Prodeko/infoscreen"
-  }],
+      "title": "äpy.fi",
+      "copy": "Wappu magazine Äpy's website.",
+      "image": "../home/portfolio/images/apy-fi.png",
+      "description": "../home/portfolio/äpy-fi.md",
+      "link": "https://apy.fi",
+      "github_url": "https://github.com/wappulehti-apy/apy-fi"
+    },
+    {
+      "title": "prodeko.org",
+      "copy": "Aalto University's IEM student guild website.",
+      "image": "../home/portfolio/images/prodeko-org.jpg",
+      "description": "../home/portfolio/prodeko-org.md",
+      "link": "https://prodeko.org",
+      "github_url": "https://github.com/Prodeko/prodeko-org-djangocms"
+    },
+    {
+      "title": "osta.äpy.fi",
+      "copy": "A service to find Äpy sellers.",
+      "image": "../home/portfolio/images/osta-apy-fi.png",
+      "description": "../home/portfolio/osta-äpy-fi.md",
+      "link": "",
+      "github_url": ""
+    },
+    {
+      "title": "timoriski.fi",
+      "copy": "My site!",
+      "image": "../home/portfolio/images/mysite.png",
+      "description": "../home/portfolio/mysite.md",
+      "link": "https://timoriski.fi",
+      "github_url": "https://github.com/rriski/site"
+    },
+    {
+      "title": "raittiusseura.org",
+      "copy": "Polyteknikkojen Raittiusseura's site.",
+      "image": "../home/portfolio/images/raittiusseura-org.png",
+      "description": "../home/portfolio/raittiusseura-org.md",
+      "link": "https://raittiusseura.org",
+      "github_url": "https://github.com/rriski/pora-site"
+    },
+    {
+      "title": "infoscreen.prodeko.org",
+      "copy": "Infoscreen at Prodeko's guildroom.",
+      "image": "../home/portfolio/images/prodeko-infoscreen.jpg",
+      "description": "../home/portfolio/prodeko-infoscreen.md",
+      "link": "https://infoscreen.prodeko.org",
+      "github_url": "https://github.com/Prodeko/infoscreen"
+    }
+  ],
   "education": [
-  {
-    "title": "Master of Science (Technology)",
-    "copy": "Master's programme in Industrial Engineering and Management, Strategy and Venturing | 2019 - 2022"
-  },
-  {
-    "title": "Bachelor of Science",
-    "copy": "Industrial Engineering and Management, Aalto School of Science | 2015 - 2019"
-  },
-  {
-    "title": "Matriculation examination",
-    "copy": "Mäkelänrinne High School | 2011 - 2014"
-  }],
+    {
+      "title": "Master of Science (Technology)",
+      "copy": "Master's programme in Industrial Engineering and Management, Strategy and Venturing | 2019 - 2022"
+    },
+    {
+      "title": "Bachelor of Science",
+      "copy": "Industrial Engineering and Management, Aalto School of Science | 2015 - 2019"
+    },
+    {
+      "title": "Matriculation examination",
+      "copy": "Mäkelänrinne High School | 2011 - 2014"
+    }
+  ],
   "skills": [
-  {
-    "title": "Frameworks",
-    "text": "React, Vue, Node.js, Django, Flask, Next.js, PostGraphile"
-  },
-  {
-    "title": "Languages",
-    "text": "Javascript, TypeScript, Python, C, C++"
-  },
-  {
-    "title": "Servers",
-    "text": "NGINX, Caddy, Apache, Traefik"
-  },
-  {
-    "title": "Databases",
-    "text": "MySQL, PostgreSQL, AWS DynamoDB"
-  },
-  {
-    "title": "CI/CD",
-    "text": "Github Actions, GitLab CI/CD, Jenkins"
-  },
-  {
-    "title": "Infrastructure",
-    "text": "Docker, Terraform, Ansible, Kubernetes, AWS CDK, Argo CD"
-  },
-  {
-    "title": "Clouds",
-    "text": "AWS, Azure, GCloud, Oracle Coud"
-  },
-  {
-    "title": "Analytics",
-    "text": "R (tidyverse), Python (pandas, NumPy), Jupyter basics of Machine Learning"
-  }],
-  "experience": [{
-    "title": "Prodeko Board",
-    "roles": [{
-      "2018": "Minister of Media and Information Technology"
-    }],
-    "description": "experience/prodeko-board.md"
-  },
-  {
-    "title": "PoRa",
-    "roles": [{
-      "2016": "Board member",
-      "2017": "President",
-      "2018": "Board member, PoRa50 anniversary",
-      "2019": "PoRa50 anniversary"
-    }],
-    "description": "experience/pora.md"
-  },
-  {
-    "title": "Prodeko Guild",
-    "roles": [{
-      "2016": "Webteam, Tutor, Sports tutor, Sports responsible",
-      "2017": "Webteam",
-      "2018": "Tutor, Webteam",
-      "2019": "Graphic design, webteam, marketing to high school students"
-    }],
-    "description": "experience/prodeko-guild.md"
-  }]
+    {
+      "title": "Frameworks",
+      "text": "React, Vue, Node.js, Django, Flask, Next.js, PostGraphile"
+    },
+    {
+      "title": "Languages",
+      "text": "Javascript, TypeScript, Python, C, C++"
+    },
+    {
+      "title": "Servers",
+      "text": "NGINX, Caddy, Apache, Traefik"
+    },
+    {
+      "title": "Databases",
+      "text": "MySQL, PostgreSQL, AWS DynamoDB"
+    },
+    {
+      "title": "CI/CD",
+      "text": "Github Actions, GitLab CI/CD, Jenkins"
+    },
+    {
+      "title": "Infrastructure",
+      "text": "Docker, Terraform, Ansible, Kubernetes, AWS CDK, Argo CD"
+    },
+    {
+      "title": "Clouds",
+      "text": "AWS, Azure, GCloud, Oracle Coud"
+    },
+    {
+      "title": "Analytics",
+      "text": "R (tidyverse), Python (pandas, NumPy), Jupyter basics of Machine Learning"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Prodeko Board",
+      "roles": [
+        {
+          "2018": "Minister of Media and Information Technology"
+        }
+      ],
+      "description": "experience/prodeko-board.md"
+    },
+    {
+      "title": "PoRa",
+      "roles": [
+        {
+          "2016": "Board member",
+          "2017": "President",
+          "2018": "Board member, PoRa50 anniversary",
+          "2019": "PoRa50 anniversary"
+        }
+      ],
+      "description": "experience/pora.md"
+    },
+    {
+      "title": "Prodeko Guild",
+      "roles": [
+        {
+          "2016": "Webteam, Tutor, Sports tutor, Sports responsible",
+          "2017": "Webteam",
+          "2018": "Tutor, Webteam",
+          "2019": "Graphic design, webteam, marketing to high school students"
+        }
+      ],
+      "description": "experience/prodeko-guild.md"
+    }
+  ]
 }
