@@ -1,6 +1,6 @@
 ![timoriski.fi](images/mysite.png)
 
-## About 
+## About
 The site you're currently browsing!
 
 ## Technologies

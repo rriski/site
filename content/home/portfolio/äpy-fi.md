@@ -6,7 +6,7 @@
   </video>
 </div>
 
-## About 
+## About
 The Finnish humour publication Äpy is published odd years during the Finnish first of May festivities. The website [www.äpy.fi](https://www.apy.fi) features old Äpy's and serves as the digital front for the 70 year old Wappu magazine.
 
 ## Technologiess

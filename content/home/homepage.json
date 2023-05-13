@@ -28,14 +28,14 @@
     {
       "title": "prodeko.org",
       "copy": "Aalto University's IEM student guild website.",
-      "image": "../home/portfolio/images/prodeko-org.jpg",
+      "image": "../home/portfolio/images/prodeko-org.png",
       "description": "../home/portfolio/prodeko-org.md",
       "link": "https://prodeko.org",
       "github_url": "https://github.com/Prodeko/prodeko-org-djangocms"
     },
     {
       "title": "osta.äpy.fi",
-      "copy": "A service to find Äpy sellers.",
+      "copy": "Website for buying Äpy.",
       "image": "../home/portfolio/images/osta-apy-fi.png",
       "description": "../home/portfolio/osta-äpy-fi.md",
       "link": "",
@@ -56,14 +56,6 @@
       "description": "../home/portfolio/raittiusseura-org.md",
       "link": "https://raittiusseura.org",
       "github_url": "https://github.com/rriski/pora-site"
-    },
-    {
-      "title": "infoscreen.prodeko.org",
-      "copy": "Infoscreen at Prodeko's guildroom.",
-      "image": "../home/portfolio/images/prodeko-infoscreen.jpg",
-      "description": "../home/portfolio/prodeko-infoscreen.md",
-      "link": "https://infoscreen.prodeko.org",
-      "github_url": "https://github.com/Prodeko/infoscreen"
     }
   ],
   "education": [
