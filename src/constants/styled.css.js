@@ -27,7 +27,7 @@ export const A = styled.a`
 export const Title = styled.span`
   font-size: 2rem;
   font-weight: 800;
-  margin: 0 1.5rem 0 2rem;
+  margin: 1rem 0;
 
   ${MEDIA.PHONE`
     margin: 1rem 0;

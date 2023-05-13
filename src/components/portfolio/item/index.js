@@ -20,12 +20,8 @@ const Item = (props) => {
             alt={title}
           />
         </div>
-        <figcaption>
-          <Title>
-            <span href={link} target="_blank" rel="noreferrer noopener">
-              {title}
-            </span>
-          </Title>
+        <figcaption style={{ marginTop: '1.5rem' }}>
+          <Title>{title}</Title>
           {link && (
             <A
               margin={'0 5px'}

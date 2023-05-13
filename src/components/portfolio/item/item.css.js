@@ -13,20 +13,19 @@ export const Figure = styled.figure`
 `
 
 export const Image = styled(GatsbyImage)`
-  margin-bottom: 1rem;
   box-shadow: -1px 5px 13px 0px rgba(0, 0, 0, 0.23);
 
   @media (hover: hover) {
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
     &:hover {
-      transform: scale(1.02);
+      transform: scale(1.01);
     }
   }
 `
 
 export const Copy = styled.p`
   color: ${textcolor};
-  margin: 1rem 2rem 4rem 2rem;
+  margin: 1rem 0;
 
   ${MEDIA.PHONE`
     margin: 1rem 0 4rem 0;
