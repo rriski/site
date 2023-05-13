@@ -11,8 +11,7 @@
     "lint:fix": "eslint --ignore-path .gitignore src/ --fix",
     "build:dir": "mkdirp ./public/icons/",
     "build:favicons": "node scripts/favicons",
-    "build": "npm run build:dir && npm run build:favicons && gatsby build",
-    "test": "ava **/*.test.js --verbose"
+    "build": "npm run build:dir && npm run build:favicons && gatsby build"
   },
   "dependencies": {
     "framer-motion": "^10.12.10",
@@ -40,9 +39,8 @@
   "devDependencies": {
     "@babel/core": "^7.21.8",
     "@babel/eslint-parser": "^7.21.8",
-    "ava": "5.2.0",
+    "@netlify/plugin-lighthouse": "^4.1.1",
     "babel-preset-gatsby": "^3.9.0",
-    "chrome-launcher": "0.15.2",
     "eslint": "^8.40.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-import": "2.27.5",
@@ -51,7 +49,6 @@
     "eslint-plugin-react": "7.32.2",
     "favicons": "7.1.2",
     "gatsby-plugin-eslint": "^4.0.4",
-    "lighthouse": "10.2.0",
     "mkdirp": "3.0.1",
     "node-gyp": "9.3.1",
     "postcss": "^8.4.23",
