@@ -1,6 +1,9 @@
-const siteConfig = require('./site-config')
+import path from 'path'
+import siteConfig from './site-config.mjs'
 
-module.exports = {
+const __dirname = path.dirname(new URL(import.meta.url).pathname)
+
+const config = {
   siteMetadata: {
     ...siteConfig,
   },
@@ -8,7 +11,6 @@ module.exports = {
     'gatsby-plugin-sitemap',
     'gatsby-plugin-offline',
     'gatsby-transformer-json',
-    'gatsby-plugin-eslint',
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
@@ -45,3 +47,5 @@ module.exports = {
     },
   ],
 }
+
+export default config

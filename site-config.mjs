@@ -1,6 +1,8 @@
-const path = require('path')
+import path from 'path'
 
-module.exports = {
+const __dirname = path.dirname(new URL(import.meta.url).pathname)
+
+export default {
   siteTitle: 'Timo Riski',
   siteTitleShort: 'Timo Riski',
   siteDescription: 'Things about me.',
