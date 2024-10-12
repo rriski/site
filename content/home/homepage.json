@@ -79,11 +79,11 @@
     },
     {
       "title": "Languages",
-      "text": "Javascript, TypeScript, Python, C, C++"
+      "text": "Golang, Javascript, TypeScript, Python, C, C++"
     },
     {
       "title": "Servers",
-      "text": "NGINX, Caddy, Apache, Traefik"
+      "text": "Traefik, Caddy, NGINX, Apache"
     },
     {
       "title": "Databases",
