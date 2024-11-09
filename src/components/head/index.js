@@ -178,6 +178,12 @@ export const Head = () => {
                 })
               )}
             </script>
+
+            <script
+              defer
+              data-domain="timoriski.fi"
+              src="https://plausible.timoriski.fi/js/script.js"
+            ></script>
           </>
         )
       }}
